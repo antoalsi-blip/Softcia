@@ -1,0 +1,6 @@
+{
+  "name": "Padel Score Tracker",
+  "description": "Professional live match scoring and analytics tracker for Padel and racket sports with golden point, tie-break, point-by-point history, and match timers.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

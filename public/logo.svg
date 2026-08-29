@@ -1,0 +1,126 @@
+<svg viewBox="0 0 540 140" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="ULTIMATE SCORER">
+  <defs>
+    <filter id="yellowGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="0" stdDeviation="1.5" floodColor="#FFEE00" floodOpacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- Text Line 1: ULTIMATE -->
+  <text
+    x="4"
+    y="62"
+    fill="#FFEE00"
+    font-family="'Montserrat', 'Arial Black', Impact, sans-serif"
+    font-weight="900"
+    font-size="68"
+    letter-spacing="4"
+  >
+    ULTIMATE
+  </text>
+
+  <!-- Text Line 2: SC -->
+  <text
+    x="4"
+    y="130"
+    fill="#FFEE00"
+    font-family="'Montserrat', 'Arial Black', Impact, sans-serif"
+    font-weight="900"
+    font-size="68"
+    letter-spacing="4"
+  >
+    SC
+  </text>
+
+  <!-- Stylized 'O' (Ө) in SCORER with central horizontal slot -->
+  <g transform="translate(112, 75)">
+    <rect
+      x="4"
+      y="5"
+      width="44"
+      height="50"
+      rx="12"
+      fill="none"
+      stroke="#FFEE00"
+      stroke-width="12"
+    />
+    <line
+      x1="8"
+      y1="30"
+      x2="44"
+      y2="30"
+      stroke="#FFEE00"
+      stroke-width="6"
+      stroke-linecap="square"
+    />
+  </g>
+
+  <!-- Remaining letters in SCORER: RER -->
+  <text
+    x="166"
+    y="130"
+    fill="#FFEE00"
+    font-family="'Montserrat', 'Arial Black', Impact, sans-serif"
+    font-weight="900"
+    font-size="68"
+    letter-spacing="4"
+  >
+    RER
+  </text>
+
+  <!-- Right side graphic details: VOL. 01 and watermark seal -->
+  <g transform="translate(425, 12)">
+    <text
+      x="5"
+      y="22"
+      fill="#FFEE00"
+      fill-opacity="0.4"
+      font-family="'Montserrat', sans-serif"
+      font-weight="800"
+      font-size="16"
+      letter-spacing="2"
+    >
+      VOL.
+    </text>
+    <text
+      x="5"
+      y="48"
+      fill="#FFEE00"
+      fill-opacity="0.5"
+      font-family="'Montserrat', sans-serif"
+      font-weight="900"
+      font-size="26"
+      letter-spacing="1"
+    >
+      01
+    </text>
+
+    <!-- Subtle Padel ball & watermark seal -->
+    <g transform="translate(60, 52)" opacity="0.25">
+      <circle cx="28" cy="28" r="26" stroke="#FFEE00" stroke-width="2.5" stroke-dasharray="3 3" fill="none" />
+      <circle cx="28" cy="28" r="21" stroke="#FFEE00" stroke-width="1.5" fill="none" />
+      <path
+        d="M 14 16 C 24 22, 24 34, 14 40"
+        stroke="#FFEE00"
+        stroke-width="2"
+        fill="none"
+      />
+      <path
+        d="M 42 16 C 32 22, 32 34, 42 40"
+        stroke="#FFEE00"
+        stroke-width="2"
+        fill="none"
+      />
+      <text
+        x="28"
+        y="31"
+        text-anchor="middle"
+        fill="#FFEE00"
+        font-size="6"
+        font-weight="900"
+        letter-spacing="1"
+      >
+        PADEL
+      </text>
+    </g>
+  </g>
+</svg>
